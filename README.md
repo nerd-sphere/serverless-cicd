@@ -1,4 +1,3 @@
-# serverless-cicd
 Serverless CI/CD on AWS with Terraform & GitHub Actions
 
 This project demonstrates a complete Serverless DevOps workflow using:
