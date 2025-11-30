@@ -14,22 +14,6 @@ Every time you push code to the main branch, the pipeline automatically:
 
 This is a production-style serverless CI/CD setup—simple, clean, and fully automated.
 
-Project Architecture
-
-repository
-│
-├── lambda_function/
-│   └── app.py                # Python Lambda code
-│
-├── terraform/
-│   ├── provider.tf           # AWS provider + backend
-│   ├── main.tf               # Lambda, IAM role, archive_file
-│   ├── variables.tf          # Input variables
-│
-└── .github/
-    └── workflows/
-        └── deploy.yml        # GitHub Actions CI/CD pipeline
-
 Tools & Requirements
 
 1. AWS Account (Free Tier is enough)
